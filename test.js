@@ -30,5 +30,5 @@ test("One yen should be 0.01 pound", function(){
     const { fromYenToPound } = require('./app.js')
     
     // hago mi comparacion (la prueba)
-    expect(fromYenToPound(3.5)).toBe(0.22857); //1 dollar  127.9 yenes, entonces 3.5 dollares deberian ser = (3.5 * 127.9)
+    expect(fromYenToPound(3.5)).toBe(0.2285714285714286); //1 dollar  127.9 yenes, entonces 3.5 dollares deberian ser = (3.5 * 127.9)
 })
